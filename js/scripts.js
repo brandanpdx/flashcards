@@ -1,5 +1,5 @@
-$(document).ready(function() {
-  $(".panel").click(function() {
+$(document).ready(function () {
+  $(".panel").click(function () {
     $(".def").fadeOut();
     $(".def", this).fadeToggle();
   })
