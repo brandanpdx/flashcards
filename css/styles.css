@@ -1,13 +1,37 @@
 body {
   padding: 50px;
+  background-image: url(../pics/background.jpg);
+  background-size:     cover;                     
+  background-position: center center;
+  text-align: center;
 }
 
 .panel {
+  background-image: url(../pics/notecard.jpg);
+  background-size: 300px 175px;
   padding: 20px;
-  background-color: #ddd;
+  /* background-color: #ddd; */
   text-align: center;
+  height: 175px;
+  width: auto;
+  -webkit-box-shadow: 10px 10px 28px -1px rgba(0,0,0,0.49);
+  -moz-box-shadow: 10px 10px 28px -1px rgba(0,0,0,0.49);
+  box-shadow: 10px 10px 28px -1px rgba(0,0,0,0.49);
 }
 
 .def {
   display: none;
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 40px;
+  font-family: 'Luckiest Guy', cursive;
+  color: #fff;
+  -webkit-text-stroke: 2px black;
+}
+
+.word {
+  font-weight: bold;
+  font-size: 1.5em;
 }
