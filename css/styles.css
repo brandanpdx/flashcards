@@ -14,9 +14,15 @@ body {
   text-align: center;
   height: 175px;
   width: auto;
-  -webkit-box-shadow: 10px 10px 28px -1px rgba(0, 0, 0, 0.49);
-  -moz-box-shadow: 10px 10px 28px -1px rgba(0, 0, 0, 0.49);
-  box-shadow: 10px 10px 28px -1px rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: 5px 5px 28px -1px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 5px 5px 28px -1px rgba(0, 0, 0, 0.49);
+  box-shadow: 5px 5px 28px -1px rgba(0, 0, 0, 0.49);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .def {
@@ -34,4 +40,13 @@ h1 {
 .word {
   font-weight: bold;
   font-size: 1.5em;
+}
+
+.panel:hover {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+  border: 1.5px solid #fefefe;
+  -webkit-box-shadow: 10px 10px 28px -1px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 10px 10px 28px -1px rgba(0, 0, 0, 0.49);
+  box-shadow: 10px 10px 28px -1px rgba(0, 0, 0, 0.49);
 }
